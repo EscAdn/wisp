@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RedWisp</title>
+	<!-- Librerias externas -->
+	<link rel="stylesheet" href="librerias/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="librerias/bootstrap/css/bootstrap.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/menuLateral.css">
+</head>
+<body>
+
+	<!-- Menu -->
+	<div class="sidebar">
+		<div class="logo-details">
+			<i class='fas fa-wifi icon'></i>
+			<div class="logo_name">RedWisp</div>
+			<i class='fas fa-chevron-right' id="btn" ></i>
+		</div>
+
+		<ul class="nav-list">
+			<li>
+				<a href="index.html" class="active">
+					<i class='fas fa-chart-area'></i>
+					<span class="links_name">Genrales</span>
+				</a>
+				<span class="tooltip">Generales</span>
+			</li>
+			<li>
+				<a href="clientes.html">
+					<i class='fas fa-user-alt' ></i>
+					<span class="links_name">Clientes</span>
+				</a>
+				<span class="tooltip">Clientes</span>
+			</li>
+			<li>
+				<a href="Contratos.html">
+					<i class='fas fa-handshake' ></i>
+					<span class="links_name">Contratos</span>
+				</a>
+				<span class="tooltip">Contratos</span>
+			</li>
+			<li>
+				<a href="planes.html">
+					<i class='fas fa-wifi' ></i>
+					<span class="links_name">Planes</span>
+				</a>
+				<span class="tooltip">Planes</span>
+			</li>
+			<li>
+				<a href="planes.html">
+					<i class='fas fa-dollar-sign' ></i>
+					<span class="links_name">Gastos</span>
+				</a>
+				<span class="tooltip">Gastos</span>
+			</li>
+			<li>
+				<a href="user.html">
+					<i class='fas fa-user-cog' ></i>
+					<span class="links_name">Usuarios</span>
+				</a>
+				<span class="tooltip">Usuarios</span>
+			</li>
+		</ul>
+	</div>
+
+	<section id="app" class="contenido">
+	</section>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src="js/menuLateral.js"></script>
+	<script type="text/javascript" src="js/grafica.js"></script>
+
+</body>
+</html>
